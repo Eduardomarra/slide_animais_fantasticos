@@ -39,3 +39,26 @@ img{
   opacity: 1;
   transform: scale(1);
 }
+
+/* NAVEGAÇAO PAGINAÇAO */
+
+[data-control = "slide"]{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+[data-control = "slide"] li{
+  margin: 0 5px;
+}
+[data-control = "slide"] li a{
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #fb5;
+  overflow: hidden;
+  text-indent: -999px;
+}
+[data-control = "slide"] li.active a, [data-control = "slide"] li a:hover {
+  background: #e54;
+}
