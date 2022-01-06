@@ -153,7 +153,7 @@ export class slide{
   }
 }
 
-export class SlideNav extends slide{
+export default class SlideNav extends slide{
   constructor(slide, slideWrapper){
     super(slide, slideWrapper);
 
